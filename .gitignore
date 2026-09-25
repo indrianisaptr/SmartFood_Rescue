@@ -1,0 +1,41 @@
+# Dataset raw
+dataset/
+
+# Dataset hasil preprocessing
+Dataset_YOLO/
+
+# Model dan hasil training
+*.pt
+*.pth
+*.onnx
+runs/
+weights/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / temporary
+*.log
+*.tmp
